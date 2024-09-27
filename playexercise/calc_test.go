@@ -1,4 +1,4 @@
-package refactoring
+package playexercise
 
 import "testing"
 

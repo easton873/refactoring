@@ -1,4 +1,4 @@
-package refactoring
+package playexercise
 
 import (
 	"fmt"
@@ -24,7 +24,7 @@ func statement(invoice Invoice, plays map[string]Play) (string, error) {
 	totalAmount := 0.0
 	volumeCredits := 0
 	result := fmt.Sprintf("Statement for %s\n", invoice.customer)
-	format := func(amount float64) string { // TODO needs to be fixed
+	format := func(amount float64) string {
 		return fmt.Sprintf("$%.2f", amount)
 	}
 	for _, perf := range invoice.performances {
