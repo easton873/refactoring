@@ -1,0 +1,12 @@
+checkin
+sam
+checkin
+betty
+checkin
+howard
+view
+checkout
+sam
+checkin
+steve
+view

@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test User" type="GoTestRunConfiguration" factoryName="Go Test">
+    <module name="refactoring" />
+    <working_directory value="$PROJECT_DIR$/hotel" />
+    <root_directory value="$PROJECT_DIR$" />
+    <kind value="PACKAGE" />
+    <package value="refactoring/hotel" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <framework value="gotest" />
+    <pattern value="^\QTestRunFixture\E$" />
+    <method v="2" />
+  </configuration>
+</component>
